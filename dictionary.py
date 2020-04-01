@@ -57,7 +57,7 @@ while choice != 3:
         print('\nThere! Are you happy??\n')
         print('---------------------------------------------')
 print('Alright, see you later you filthy animal!')
-print("Remember: Dont step on a crack or you'll break Penny's back!")
+print("Remember: Dont step on a crack or you'll break Penny's back!\n")
 with open(filename, 'w') as f:
     json.dump(glossary, f)
 
